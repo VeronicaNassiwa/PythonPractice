@@ -10,5 +10,6 @@ def your_bestFreind():
     freind= input("Enter the name of your best frind")
     if person in people_i_know:
         print("you kno {} " .format(freind))
+        return "wrong order"
 
- your_bestFreind()
+your_bestFreind()
